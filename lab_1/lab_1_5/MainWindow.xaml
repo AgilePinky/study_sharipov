@@ -1,0 +1,16 @@
+﻿<Window x:Class="lab_1_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           Title="Text File Loader" Height="400" Width="600">
+    <Grid>
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Header="Open" Click="OpenFile_Click"/>
+                <MenuItem Header="Save As" Click="SaveFile_Click"/>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="textBox" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" 
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                    Margin="0,25,0,0" TextWrapping="Wrap"/>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\lab_1_5.csproj.AssemblyReference.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\MainWindow.baml
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\MainWindow.g.cs
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\App.g.cs
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\lab_1_5_MarkupCompile.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\lab_1_5.g.resources
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\lab_1_5.Properties.Resources.resources
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\lab_1_5.csproj.GenerateResource.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\lab_1_5.csproj.CoreCompileInputs.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\bin\Debug\lab_1_5.exe.config
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\bin\Debug\lab_1_5.exe
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\bin\Debug\lab_1_5.pdb
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\lab_1_5.exe
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\lab_1\lab_1_5\obj\Debug\lab_1_5.pdb
