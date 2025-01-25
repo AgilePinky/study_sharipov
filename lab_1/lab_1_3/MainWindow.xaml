@@ -1,0 +1,36 @@
+﻿<Window x:Class="lab_1_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Информация о планетах" Height="200" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Margin="10">
+            <ListBox x:Name="PlanetListBox" SelectionChanged="PlanetListBox_SelectionChanged" Height="150" RenderTransformOrigin="0.5,0.5">
+                <ListBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0.377"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0.493"/>
+                    </TransformGroup>
+                </ListBox.RenderTransform>
+                <ListBoxItem Content="Меркурий" />
+                <ListBoxItem Content="Венера" />
+                <ListBoxItem Content="Земля" />
+                <ListBoxItem Content="Марс" />
+                <ListBoxItem Content="Юпитер" />
+                <ListBoxItem Content="Сатурн" />
+                <ListBoxItem Content="Уран" />
+                <ListBoxItem Content="Нептун" />
+            </ListBox>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="10">
+
+            <!-- Поле для вывода текста -->
+            <TextBox x:Name="InfoTextBox" Height="80" IsReadOnly="True" Margin="0,10,0,0" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>
