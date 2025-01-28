@@ -1,0 +1,7 @@
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\ChatServer\bin\Debug\ChatServer.exe.config
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\ChatServer\bin\Debug\ChatServer.exe
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\ChatServer\bin\Debug\ChatServer.pdb
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\ChatServer\obj\Debug\ChatServer.csproj.AssemblyReference.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\ChatServer\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\ChatServer\obj\Debug\ChatServer.exe
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\ChatServer\obj\Debug\ChatServer.pdb
