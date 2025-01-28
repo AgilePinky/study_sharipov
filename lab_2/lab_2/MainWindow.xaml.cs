@@ -7,7 +7,8 @@ namespace lab_2
 {
     public partial class MainWindow : Window
     {
-        private const string ConnectionString = "Data Source=D:\\A_Studing\\sibguti\\Программирование и обработка графического интерфейса(часть 1)\\lab_2\\lab_2\\students.db;Version=3;";
+        // Важно указать верный путь до файла students.db
+        private const string ConnectionString = "Data Source=D:\\A_Studing\\sibguti\\Программирование и обработка графического интерфейса(часть 1)\\study_sharipov\\lab_2\\lab_2\\students.db;Version=3;";
 
         public MainWindow()
         {
@@ -20,14 +21,17 @@ namespace lab_2
         {
             try
             {
+                // Создание подключения к базе данных SQLite
                 using (var connection = new SQLiteConnection(ConnectionString))
                 {
                     connection.Open();
+                    // SQL-запрос для создания таблицы студентов, если она не существует
                     string createStudentsTable = @"CREATE TABLE IF NOT EXISTS Students (
                                                  Id INTEGER PRIMARY KEY AUTOINCREMENT,
                                                  UniqueNumber TEXT UNIQUE NOT NULL,
                                                  FullName TEXT NOT NULL,
                                                  PhoneNumber TEXT)";
+                    // SQL-запрос для создания таблицы оценок, если она не существует
                     string createGradesTable = @"CREATE TABLE IF NOT EXISTS Grades (
                                             Id INTEGER PRIMARY KEY AUTOINCREMENT,
                                             UniqueNumber TEXT NOT NULL,
@@ -35,10 +39,12 @@ namespace lab_2
                                             MathGrade INTEGER NOT NULL,
                                             FOREIGN KEY (UniqueNumber) REFERENCES Students (UniqueNumber))";
 
+                    // Выполнение команды на создание таблицы студентов
                     using (var command = new SQLiteCommand(createStudentsTable, connection))
                     {
                         command.ExecuteNonQuery();
                     }
+                    // Выполнение команды на создание таблицы оценок
                     using (var command = new SQLiteCommand(createGradesTable, connection))
                     {
                         command.ExecuteNonQuery();
@@ -47,11 +53,12 @@ namespace lab_2
             }
             catch (Exception ex)
             {
+                // Обработка ошибок и вывод сообщения
                 MessageBox.Show("Ошибка при инициализации базы данных: " + ex.Message);
             }
         }
 
-        private void LoadStudents()
+        private void LoadStudents() // Загрузка в бд
         {
             using (var connection = new SQLiteConnection(ConnectionString))
             {
@@ -88,7 +95,7 @@ namespace lab_2
             LoadStudents(); // Вызываем метод для загрузки студентов при нажатии кнопки
         }
 
-        private void AddStudent_Click(object sender, RoutedEventArgs e)
+        private void AddStudent_Click(object sender, RoutedEventArgs e) // Добавление записи в таблицу
         {
             using (var connection = new SQLiteConnection(ConnectionString))
             {
@@ -120,7 +127,7 @@ namespace lab_2
             LoadStudents();
         }
 
-        private void UpdateStudent_Click(object sender, RoutedEventArgs e)
+        private void UpdateStudent_Click(object sender, RoutedEventArgs e) // Обновление записи
         {
             if (lvStudents.SelectedItem is Student selectedStudent)
             {
@@ -155,7 +162,7 @@ namespace lab_2
             }
         }
 
-        private void DeleteStudent_Click(object sender, RoutedEventArgs e)
+        private void DeleteStudent_Click(object sender, RoutedEventArgs e) // Удаление записи
         {
             if (lvStudents.SelectedItem is Student selectedStudent)
             {
