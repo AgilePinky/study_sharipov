@@ -1,0 +1,14 @@
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\bin\Debug\kr_1.exe.config
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\bin\Debug\kr_1.exe
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\bin\Debug\kr_1.pdb
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\kr_1.csproj.AssemblyReference.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\MainWindow.baml
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\MainWindow.g.cs
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\App.g.cs
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\kr_1_MarkupCompile.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\kr_1.g.resources
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\kr_1.Properties.Resources.resources
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\kr_1.csproj.GenerateResource.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\kr_1.csproj.CoreCompileInputs.cache
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\kr_1.exe
+D:\A_Studing\sibguti\Программирование и обработка графического интерфейса(часть 1)\kr_1\obj\Debug\kr_1.pdb

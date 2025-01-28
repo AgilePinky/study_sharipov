@@ -1,0 +1,26 @@
+﻿<Window x:Class="kr_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Пятнашки" Height="400" Width="400">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Строки:" VerticalAlignment="Center" />
+                <ComboBox x:Name="RowsComboBox" Width="100" SelectionChanged="RowsComboBox_SelectionChanged">
+                    <ComboBoxItem Content="3" />
+                    <ComboBoxItem Content="4" />
+                    <ComboBoxItem Content="5" />
+                    <ComboBoxItem Content="6" />
+                </ComboBox>
+                <TextBlock Text="Колонки:" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                <ComboBox x:Name="ColumnsComboBox" Width="100" SelectionChanged="ColumnsComboBox_SelectionChanged">
+                    <ComboBoxItem Content="3" />
+                    <ComboBoxItem Content="4" />
+                    <ComboBoxItem Content="5" />
+                    <ComboBoxItem Content="6" />
+                </ComboBox>
+            </StackPanel>
+            <UniformGrid x:Name="GameGrid" Rows="4" Columns="4" Width="200" Height="200"/>
+        </StackPanel>
+    </Grid>
+</Window>
